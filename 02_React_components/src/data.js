@@ -1,32 +1,39 @@
-export const people = [{
-    id: 0,
-    name: 'Creola Katherine Johnson',
-    profession: 'mathematician',
-    accomplishment: 'spaceflight calculations',
-    imageId: 'MK3eW3A'
-  }, {
-    id: 1,
-    name: 'Mario José Molina-Pasquel Henríquez',
-    profession: 'chemist',
-    accomplishment: 'discovery of Arctic ozone hole',
-    imageId: 'mynHUSa'
-  }, {
-    id: 2,
-    name: 'Mohammad Abdus Salam',
-    profession: 'physicist',
-    accomplishment: 'electromagnetism theory',
-    imageId: 'bE7W1ji'
-  }, {
-    id: 3,
-    name: 'Percy Lavon Julian',
-    profession: 'chemist',
-    accomplishment: 'pioneering cortisone drugs, steroids and birth control pills',
-    imageId: 'IOjWm71'
-  }, {
-    id: 4,
-    name: 'Subrahmanyan Chandrasekhar',
-    profession: 'astrophysicist',
-    accomplishment: 'white dwarf star mass calculations',
-    imageId: 'lrWQx8l'
-  }];
-  
+const data = [
+  {
+    key: 1,
+    name: "Angular js",
+    title: "Namste Angular",
+    views: "3M",
+    verified: true,
+  },
+  {
+    key: 2,
+    name: "Angular js",
+    title: "Namste Angular",
+    views: "3M",
+    verified: false,
+  },
+  {
+    key: 3,
+    name: "Angular js",
+    title: "Namste Angular",
+    views: "3M",
+    verified: true,
+  },
+  {
+    key: 4,
+    name: "Three js",
+    title: "Namste Angular",
+    views: "3M",
+    verified: true,
+  },
+  {
+    key: 5,
+    name: "Electron js",
+    title: "Namste Angular",
+    views: "3M",
+    verified: false,
+  },
+];
+
+export default data;

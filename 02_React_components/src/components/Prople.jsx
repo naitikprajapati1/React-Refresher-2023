@@ -1,6 +1,5 @@
-import {people} from '../data';
+import data from "../data";
 const Prople = () => {
-    let data=people;
   return (
     <div className='data'>
    {
